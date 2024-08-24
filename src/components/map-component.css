@@ -1,0 +1,16 @@
+.buttonPilot{
+    margin-top: 10px;
+    padding: 6px;
+}
+input{
+    padding: 6px;
+    width: 250px;
+}
+.alignItems {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
