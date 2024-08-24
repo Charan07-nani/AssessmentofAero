@@ -37,7 +37,6 @@ const PilotLocator = () => {
             .filter(pilot => pilot.distance <= parseFloat(distance))
             .sort((a, b) => a.distance - b.distance)
             .slice(0, 10);
-         console.log(filteredPilots)   
 
         setNearestPilots(filteredPilots);
     };
